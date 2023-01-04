@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<title>inercia</title>
+<link rel="stylesheet" type="text/css" href="style/posts.css">
+<link rel="stylesheet" href="style/forms.css">
+<div class="navbar">
+   <div style="flex-grow: 1; text-align: center;"></div>
+   <div style="display: flex; align-items: center;">
+      <div> <a href="#"><img src="https://inercia.xyz/downloads/logo/inercia-48.png" alt="inercia logo"></a></div>
+      <div><button class="homebutton" onclick="">inercia</button></div>
+   </div>
+   <div style="flex-grow: 4;"></div>
+   <div style="flex-grow: 1;" id="balanceId"></div>
+   <div>
+      <div class="dropdown" style="float:right;">
+         <button class="dropbtn" style="min-width: 160px;">@lua</button>
+         <div class="dropdown-content">
+            <a href="#">Profile</a>
+            <a href="#">Posts</a>
+            <a href="#">Logout</a>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="tagsbar" id="tagsbarId">Profile</div>
+<div>
+   <div class="topcolumns">
+      <div> <img class="avatarimg" src="https://cdn.discordapp.com/avatars/757021565945774182/7370a8d16a7177cd16cff53d11809f84.png" alt="avatar"> </div>
+      <div>
+         <p><strong>email : </strong> ola@example.com</p>
+      </div>
+      <div>
+         <p><strong>discord username : </strong> loa#234</p>
+      </div>
+      <div>
+         <form action="#" method="post" enctype="multipart/form-data">
+            <textarea id="bio" name="bio" rows="4" cols="50">I throw bread at pigeons</textarea>
+            <br>
+            <input type="submit" value="Save" name="OnSaveProfile">
+         </form>
+      </div>
+   </div>
+</div>
+<div id="footer">
+   <p> <a href="https://hackmd.io/@goulart/rkg55rl9s">FAQ</a> | <a href="mailto:team@inercia.xyz">team@inercia.xyz</a> | Copyright (c) 2023 Inercia Non-Profit. All rights reserved.</p>
+</div>
+</body>
+</html>
