@@ -1,4 +1,4 @@
-
+/*
 .container {
   border-radius: 5px;
   background-color: #474953;
@@ -10,7 +10,25 @@
   // max-width: 20em;
  
 }
+*/
 
+
+
+
+.formvertcontainer {
+  //background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  gap: 10px;
+  margin-bottom: 40px;
+  
+}
+.formvertcontainer > div {
+  //background-color: blue;
+}
 
 
 .col-75 {
@@ -30,12 +48,12 @@
 
 
 
-input[type=text], select, textarea {
+.formtextinput {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  resize: vertical;
+  //resize: vertical;
   background-color: #cccccc;
   box-sizing: border-box;
 }
@@ -43,18 +61,19 @@ input[type=text], select, textarea {
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
+ 
 }
 
-input[type=submit] {
+.formsubmitbutton {
   background-color: #00bcef;
   color: black;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  float: right;
+  //float: center;
 }
 
-input[type=submit]:hover {
+.formsubmitbutton:hover {
   color: white;
 }
